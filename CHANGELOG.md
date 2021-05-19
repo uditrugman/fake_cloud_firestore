@@ -1,3 +1,8 @@
+## 0.9.0+1
+
+- renamed cloud_firestore_mocks to [fake_cloud_firestore](https://pub.dev/packages/fake_cloud_firestore).
+- marking cloud_firestore_mocks as discontinued.
+
 ## 0.9.0
 
 - migrated to Firestore 2.1.0.

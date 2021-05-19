@@ -1,6 +1,8 @@
 # Cloud Firestore Mocks
 [![pub package](https://img.shields.io/pub/v/cloud_firestore_mocks.svg)](https://pub.dartlang.org/packages/cloud_firestore_mocks)
 
+## DISCONTINUED. I renamed the library to [fake_cloud_firestore](https://pub.dev/packages/fake_cloud_firestore). Please use that one instead.
+
 Fakes to write unit tests for Cloud Firestore. Instantiate a
 `MockFirestoreInstance`, then pass it around your project as if it were a
 `FirestoreInstance`. This fake acts like Firestore except it will only keep
