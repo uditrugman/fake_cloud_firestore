@@ -447,4 +447,9 @@ class MockQuery<T extends Object?> extends FakeQueryWithParent<T> {
 
   @override
   FakeQueryWithParent? get parentQuery => _parentQuery;
+
+  @override
+  AggregateQuery count() {
+    throw UnimplementedError();
+  }
 }

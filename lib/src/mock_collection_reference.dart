@@ -184,4 +184,10 @@ class MockCollectionReference<T extends Object?> extends MockQuery<T>
 
   @override
   FakeQueryWithParent? get parentQuery => null;
+
+  @override
+  AggregateQuery count() {
+    // TODO: implement count
+    throw UnimplementedError();
+  }
 }

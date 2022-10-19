@@ -5,14 +5,14 @@ homepage: https://www.wafrat.com
 repository: https://github.com/atn832/fake_cloud_firestore
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.18.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cloud_firestore: ^3.4.0
+  cloud_firestore: ^4.0.1
   cloud_firestore_platform_interface: ^5.0.1
-  collection: ^1.14.13
+  collection: ^1.16.0
   plugin_platform_interface: ^2.0.0
   quiver: ^3.0.0
   rxdart: ^0.27.1
